@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50DDE86F21F871DD007898D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE86E21F871DD007898D2 /* AppDelegate.swift */; };
+		50DDE87121F871DD007898D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE87021F871DD007898D2 /* ViewController.swift */; };
+		50DDE87421F871DD007898D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DDE87221F871DD007898D2 /* Main.storyboard */; };
+		50DDE87621F871E3007898D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DDE87521F871E3007898D2 /* Assets.xcassets */; };
+		50DDE87921F871E4007898D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DDE87721F871E3007898D2 /* LaunchScreen.storyboard */; };
+		50DDE88421F871E4007898D2 /* PalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE88321F871E4007898D2 /* PalindromeTests.swift */; };
+		50DDE88F21F871E4007898D2 /* PalindromeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE88E21F871E4007898D2 /* PalindromeUITests.swift */; };
+		50DDE89D21F872DE007898D2 /* BevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE89C21F872DE007898D2 /* BevelButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50DDE88021F871E4007898D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50DDE86321F871DD007898D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50DDE86A21F871DD007898D2;
+			remoteInfo = Palindrome;
+		};
+		50DDE88B21F871E4007898D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50DDE86321F871DD007898D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50DDE86A21F871DD007898D2;
+			remoteInfo = Palindrome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50DDE86B21F871DD007898D2 /* Palindrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palindrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DDE86E21F871DD007898D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50DDE87021F871DD007898D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50DDE87321F871DD007898D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50DDE87521F871E3007898D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50DDE87821F871E4007898D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50DDE87A21F871E4007898D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DDE87F21F871E4007898D2 /* PalindromeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalindromeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DDE88321F871E4007898D2 /* PalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeTests.swift; sourceTree = "<group>"; };
+		50DDE88521F871E4007898D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DDE88A21F871E4007898D2 /* PalindromeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalindromeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DDE88E21F871E4007898D2 /* PalindromeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUITests.swift; sourceTree = "<group>"; };
+		50DDE89021F871E4007898D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DDE89C21F872DE007898D2 /* BevelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevelButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50DDE86821F871DD007898D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DDE87C21F871E4007898D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DDE88721F871E4007898D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50DDE86221F871DD007898D2 = {
+			isa = PBXGroup;
+			children = (
+				50DDE86D21F871DD007898D2 /* Palindrome */,
+				50DDE88221F871E4007898D2 /* PalindromeTests */,
+				50DDE88D21F871E4007898D2 /* PalindromeUITests */,
+				50DDE86C21F871DD007898D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50DDE86C21F871DD007898D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50DDE86B21F871DD007898D2 /* Palindrome.app */,
+				50DDE87F21F871E4007898D2 /* PalindromeTests.xctest */,
+				50DDE88A21F871E4007898D2 /* PalindromeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50DDE86D21F871DD007898D2 /* Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				50DDE86E21F871DD007898D2 /* AppDelegate.swift */,
+				50DDE87021F871DD007898D2 /* ViewController.swift */,
+				50DDE87221F871DD007898D2 /* Main.storyboard */,
+				50DDE89C21F872DE007898D2 /* BevelButton.swift */,
+				50DDE87521F871E3007898D2 /* Assets.xcassets */,
+				50DDE87721F871E3007898D2 /* LaunchScreen.storyboard */,
+				50DDE87A21F871E4007898D2 /* Info.plist */,
+			);
+			path = Palindrome;
+			sourceTree = "<group>";
+		};
+		50DDE88221F871E4007898D2 /* PalindromeTests */ = {
+			isa = PBXGroup;
+			children = (
+				50DDE88321F871E4007898D2 /* PalindromeTests.swift */,
+				50DDE88521F871E4007898D2 /* Info.plist */,
+			);
+			path = PalindromeTests;
+			sourceTree = "<group>";
+		};
+		50DDE88D21F871E4007898D2 /* PalindromeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50DDE88E21F871E4007898D2 /* PalindromeUITests.swift */,
+				50DDE89021F871E4007898D2 /* Info.plist */,
+			);
+			path = PalindromeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50DDE86A21F871DD007898D2 /* Palindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DDE89321F871E4007898D2 /* Build configuration list for PBXNativeTarget "Palindrome" */;
+			buildPhases = (
+				50DDE86721F871DD007898D2 /* Sources */,
+				50DDE86821F871DD007898D2 /* Frameworks */,
+				50DDE86921F871DD007898D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palindrome;
+			productName = Palindrome;
+			productReference = 50DDE86B21F871DD007898D2 /* Palindrome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50DDE87E21F871E4007898D2 /* PalindromeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DDE89621F871E4007898D2 /* Build configuration list for PBXNativeTarget "PalindromeTests" */;
+			buildPhases = (
+				50DDE87B21F871E4007898D2 /* Sources */,
+				50DDE87C21F871E4007898D2 /* Frameworks */,
+				50DDE87D21F871E4007898D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50DDE88121F871E4007898D2 /* PBXTargetDependency */,
+			);
+			name = PalindromeTests;
+			productName = PalindromeTests;
+			productReference = 50DDE87F21F871E4007898D2 /* PalindromeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50DDE88921F871E4007898D2 /* PalindromeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DDE89921F871E4007898D2 /* Build configuration list for PBXNativeTarget "PalindromeUITests" */;
+			buildPhases = (
+				50DDE88621F871E4007898D2 /* Sources */,
+				50DDE88721F871E4007898D2 /* Frameworks */,
+				50DDE88821F871E4007898D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50DDE88C21F871E4007898D2 /* PBXTargetDependency */,
+			);
+			name = PalindromeUITests;
+			productName = PalindromeUITests;
+			productReference = 50DDE88A21F871E4007898D2 /* PalindromeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50DDE86321F871DD007898D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chinonso Obidike";
+				TargetAttributes = {
+					50DDE86A21F871DD007898D2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					50DDE87E21F871E4007898D2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50DDE86A21F871DD007898D2;
+					};
+					50DDE88921F871E4007898D2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50DDE86A21F871DD007898D2;
+					};
+				};
+			};
+			buildConfigurationList = 50DDE86621F871DD007898D2 /* Build configuration list for PBXProject "Palindrome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50DDE86221F871DD007898D2;
+			productRefGroup = 50DDE86C21F871DD007898D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50DDE86A21F871DD007898D2 /* Palindrome */,
+				50DDE87E21F871E4007898D2 /* PalindromeTests */,
+				50DDE88921F871E4007898D2 /* PalindromeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50DDE86921F871DD007898D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DDE87921F871E4007898D2 /* LaunchScreen.storyboard in Resources */,
+				50DDE87621F871E3007898D2 /* Assets.xcassets in Resources */,
+				50DDE87421F871DD007898D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DDE87D21F871E4007898D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DDE88821F871E4007898D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50DDE86721F871DD007898D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DDE87121F871DD007898D2 /* ViewController.swift in Sources */,
+				50DDE86F21F871DD007898D2 /* AppDelegate.swift in Sources */,
+				50DDE89D21F872DE007898D2 /* BevelButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DDE87B21F871E4007898D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DDE88421F871E4007898D2 /* PalindromeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DDE88621F871E4007898D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DDE88F21F871E4007898D2 /* PalindromeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50DDE88121F871E4007898D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50DDE86A21F871DD007898D2 /* Palindrome */;
+			targetProxy = 50DDE88021F871E4007898D2 /* PBXContainerItemProxy */;
+		};
+		50DDE88C21F871E4007898D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50DDE86A21F871DD007898D2 /* Palindrome */;
+			targetProxy = 50DDE88B21F871E4007898D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50DDE87221F871DD007898D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DDE87321F871DD007898D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50DDE87721F871E3007898D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DDE87821F871E4007898D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50DDE89121F871E4007898D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50DDE89221F871E4007898D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50DDE89421F871E4007898D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palindrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.Palindrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50DDE89521F871E4007898D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palindrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.Palindrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50DDE89721F871E4007898D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PalindromeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.PalindromeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palindrome.app/Palindrome";
+			};
+			name = Debug;
+		};
+		50DDE89821F871E4007898D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PalindromeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.PalindromeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palindrome.app/Palindrome";
+			};
+			name = Release;
+		};
+		50DDE89A21F871E4007898D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PalindromeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.PalindromeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Palindrome;
+			};
+			name = Debug;
+		};
+		50DDE89B21F871E4007898D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PalindromeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.PalindromeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Palindrome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50DDE86621F871DD007898D2 /* Build configuration list for PBXProject "Palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DDE89121F871E4007898D2 /* Debug */,
+				50DDE89221F871E4007898D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DDE89321F871E4007898D2 /* Build configuration list for PBXNativeTarget "Palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DDE89421F871E4007898D2 /* Debug */,
+				50DDE89521F871E4007898D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DDE89621F871E4007898D2 /* Build configuration list for PBXNativeTarget "PalindromeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DDE89721F871E4007898D2 /* Debug */,
+				50DDE89821F871E4007898D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DDE89921F871E4007898D2 /* Build configuration list for PBXNativeTarget "PalindromeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DDE89A21F871E4007898D2 /* Debug */,
+				50DDE89B21F871E4007898D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50DDE86321F871DD007898D2 /* Project object */;
+}
